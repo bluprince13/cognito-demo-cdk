@@ -1,0 +1,20 @@
+{
+  "name": "cognito-demo-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cognito-demo-cdk": "bin/cognito-demo-cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.39.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.39.0",
+    "constructs": "^10.0.0"
+  }
+}
